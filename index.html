@@ -42,15 +42,15 @@ a:focus-visible,button:focus-visible{outline:3px solid #E3C567;outline-offset:3p
 <h1 style="margin: 16px 0 20px; font-family: 'Cormorant Garamond', serif; font-size: clamp(42px, 7vw, 96px); line-height: 1.04; font-weight: 700">More bookings, orders and enquiries — not just more likes.</h1>
 <p style="margin: 0 auto 40px; font-size: 22px; color: #CFDDE0; max-width: 860px">Websites, Google listings, Instagram and ad campaigns for cafés, restaurants, clinics, transport companies and growing small businesses. Based in Mohali, working remotely with clients across India and abroad. Practical work, clear reports, no fake promises.</p>
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 16px">
-<a href="#contact" style="display: inline-block; background: #E3C567; color: #06323F; font-weight: 700; padding: 18px 38px; font-size: 18px; border-radius: 999px">Get a free online-presence audit</a>
+<a href="#enquiry" style="display: inline-block; background: #E3C567; color: #06323F; font-weight: 700; padding: 18px 38px; font-size: 18px; border-radius: 999px">Get a free online-presence audit</a>
 <a href="#blueprints" style="display: inline-block; border: 1.5px solid #E3C567; color: #E3C567; font-weight: 700; padding: 17px 38px; font-size: 18px; border-radius: 999px">See the Business Blueprints</a>
 </div>
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-top: 40px">
-<span style="border: 1px solid #2D6B7B; color: #CFDDE0; border-radius: 999px; padding: 8px 18px; font-size: 16px">Websites</span>
-<span style="border: 1px solid #2D6B7B; color: #CFDDE0; border-radius: 999px; padding: 8px 18px; font-size: 16px">Google Business Profile</span>
-<span style="border: 1px solid #2D6B7B; color: #CFDDE0; border-radius: 999px; padding: 8px 18px; font-size: 16px">Instagram</span>
-<span style="border: 1px solid #2D6B7B; color: #CFDDE0; border-radius: 999px; padding: 8px 18px; font-size: 16px">Facebook &amp; Google Ads</span>
-<span style="border: 1px solid #2D6B7B; color: #CFDDE0; border-radius: 999px; padding: 8px 18px; font-size: 16px">WhatsApp</span>
+<a href="#enquiry" data-interest="Website" style="display: inline-block; border: 1px solid #2D6B7B; color: #CFDDE0; border-radius: 999px; padding: 10px 20px; font-size: 16px">Websites</a>
+<a href="#enquiry" data-interest="Google Business Profile" style="display: inline-block; border: 1px solid #2D6B7B; color: #CFDDE0; border-radius: 999px; padding: 10px 20px; font-size: 16px">Google Business Profile</a>
+<a href="#enquiry" data-interest="Social media (Instagram)" style="display: inline-block; border: 1px solid #2D6B7B; color: #CFDDE0; border-radius: 999px; padding: 10px 20px; font-size: 16px">Instagram</a>
+<a href="#enquiry" data-interest="Lead generation (ads + Google profile)" style="display: inline-block; border: 1px solid #2D6B7B; color: #CFDDE0; border-radius: 999px; padding: 10px 20px; font-size: 16px">Facebook &amp; Google Ads</a>
+<a href="#enquiry" data-interest="WhatsApp marketing" style="display: inline-block; border: 1px solid #2D6B7B; color: #CFDDE0; border-radius: 999px; padding: 10px 20px; font-size: 16px">WhatsApp</a>
 </div>
 <div style="margin-top: 28px; font-size: 16px; color: #A9C0C5">Udyam-registered MSME &middot; From us to yours</div>
 </div>
@@ -242,6 +242,28 @@ a:focus-visible,button:focus-visible{outline:3px solid #E3C567;outline-offset:3p
 <div style="font-size: 20px; font-weight: 500">@thepenofthought1</div>
 </div>
 </div>
+<form id="enquiry" action="https://formsubmit.co/thepenofthought@gmail.com" method="POST" style="margin-top: 48px; scroll-margin-top: 24px">
+<h3 style="margin: 0 0 6px; font-family: 'Cormorant Garamond', serif; font-size: 34px; line-height: 1.15; color: #F7F3E8">Tell me about your business</h3>
+<p style="margin: 0 0 24px; color: #CFDDE0">Fill this in and I'll reply personally on WhatsApp or email.</p>
+<input type="hidden" name="_subject" value="New enquiry from The Pen Of Thought website">
+<input type="hidden" name="_template" value="table">
+<input type="hidden" name="_next" value="https://megha500500-droid.github.io/thepenofthought/?sent=1#enquiry">
+<input type="text" name="_honey" tabindex="-1" autocomplete="off" style="display: none">
+<div id="form-sent" role="status" style="display: none; margin-bottom: 20px; background: #E3C567; color: #06323F; border-radius: 14px; padding: 16px 20px; font-weight: 700">Thank you! Your enquiry has been sent. I'll reply on WhatsApp or email soon.</div>
+<div style="display: flex; flex-wrap: wrap; gap: 16px">
+<div style="flex: 1 1 260px; min-width: 0"><label for="f-name" style="display: block; font-size: 14px; font-weight: 700; color: #E3C567; margin-bottom: 6px">Your name</label><input id="f-name" name="name" type="text" required autocomplete="name" style="width: 100%; box-sizing: border-box; min-height: 48px; padding: 12px 16px; border-radius: 12px; border: 1.5px solid #2D6B7B; background: #FFFFFF; color: #10262D; font-family: 'DM Sans', sans-serif; font-size: 16px"></div>
+<div style="flex: 1 1 260px; min-width: 0"><label for="f-email" style="display: block; font-size: 14px; font-weight: 700; color: #E3C567; margin-bottom: 6px">Email</label><input id="f-email" name="email" type="email" required autocomplete="email" style="width: 100%; box-sizing: border-box; min-height: 48px; padding: 12px 16px; border-radius: 12px; border: 1.5px solid #2D6B7B; background: #FFFFFF; color: #10262D; font-family: 'DM Sans', sans-serif; font-size: 16px"></div>
+<div style="flex: 1 1 260px; min-width: 0"><label for="f-phone" style="display: block; font-size: 14px; font-weight: 700; color: #E3C567; margin-bottom: 6px">WhatsApp number (with country code, optional)</label><input id="f-phone" name="whatsapp" type="tel" autocomplete="tel" style="width: 100%; box-sizing: border-box; min-height: 48px; padding: 12px 16px; border-radius: 12px; border: 1.5px solid #2D6B7B; background: #FFFFFF; color: #10262D; font-family: 'DM Sans', sans-serif; font-size: 16px"></div>
+<div style="flex: 1 1 260px; min-width: 0"><label for="f-country" style="display: block; font-size: 14px; font-weight: 700; color: #E3C567; margin-bottom: 6px">Country and city</label><input id="f-country" name="location" type="text" autocomplete="country-name" style="width: 100%; box-sizing: border-box; min-height: 48px; padding: 12px 16px; border-radius: 12px; border: 1.5px solid #2D6B7B; background: #FFFFFF; color: #10262D; font-family: 'DM Sans', sans-serif; font-size: 16px"></div>
+<div style="flex: 1 1 260px; min-width: 0"><label for="f-type" style="display: block; font-size: 14px; font-weight: 700; color: #E3C567; margin-bottom: 6px">Your business</label><select id="f-type" name="business_type" style="width: 100%; box-sizing: border-box; min-height: 48px; padding: 12px 16px; border-radius: 12px; border: 1.5px solid #2D6B7B; background: #FFFFFF; color: #10262D; font-family: 'DM Sans', sans-serif; font-size: 16px"><option>Caf&eacute; or restaurant</option><option>Clinic or healthcare</option><option>Transport or travel agency</option><option>Other small business</option><option>Not started yet</option></select></div>
+<div style="flex: 1 1 260px; min-width: 0"><label for="f-interest" style="display: block; font-size: 14px; font-weight: 700; color: #E3C567; margin-bottom: 6px">I'm interested in</label><select id="f-interest" name="interested_in" style="width: 100%; box-sizing: border-box; min-height: 48px; padding: 12px 16px; border-radius: 12px; border: 1.5px solid #2D6B7B; background: #FFFFFF; color: #10262D; font-family: 'DM Sans', sans-serif; font-size: 16px"><option>Not sure yet</option><option>Website</option><option>Social media (Instagram)</option><option>Lead generation (ads + Google profile)</option><option>Google Business Profile</option><option>WhatsApp marketing</option></select></div>
+<div style="flex: 1 1 100%; min-width: 0"><label for="f-message" style="display: block; font-size: 14px; font-weight: 700; color: #E3C567; margin-bottom: 6px">Anything you'd like me to know</label><textarea id="f-message" name="message" rows="4" style="width: 100%; box-sizing: border-box; min-height: 120px; padding: 12px 16px; border-radius: 12px; border: 1.5px solid #2D6B7B; background: #FFFFFF; color: #10262D; font-family: 'DM Sans', sans-serif; font-size: 16px; resize: vertical"></textarea></div>
+</div>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 16px; margin-top: 20px">
+<button type="submit" style="min-height: 52px; padding: 14px 38px; border-radius: 999px; border: none; background: #E3C567; color: #06323F; font-family: 'DM Sans', sans-serif; font-size: 18px; font-weight: 700; cursor: pointer">Send my enquiry</button>
+<span style="font-size: 14px; color: #A9C0C5">I'll use your details only to reply to your enquiry.</span>
+</div>
+</form>
 </div>
 </section>
 
@@ -273,6 +295,30 @@ a:focus-visible,button:focus-visible{outline:3px solid #E3C567;outline-offset:3p
   }
   for (var i = 0; i < buttons.length; i++) {
     buttons[i].addEventListener("click", function () { show(this.getAttribute("data-region")); });
+  }
+
+  // Enquiry form: service tags pre-select the service, thank-you message after sending
+  var interest = document.getElementById("f-interest");
+  var tags = document.querySelectorAll("[data-interest]");
+  for (var t = 0; t < tags.length; t++) {
+    tags[t].addEventListener("click", function () {
+      if (interest) { interest.value = this.getAttribute("data-interest"); }
+    });
+  }
+  var form = document.getElementById("enquiry");
+  if (form) {
+    var next = form.querySelector('input[name="_next"]');
+    if (next && location.protocol.indexOf("http") === 0) {
+      next.value = location.origin + location.pathname + "?sent=1#enquiry";
+    }
+    form.addEventListener("submit", function () {
+      var btn = form.querySelector('button[type="submit"]');
+      if (btn) { btn.disabled = true; btn.textContent = "Sending..."; }
+    });
+    if (/[?&]sent=1/.test(location.search)) {
+      var ok = document.getElementById("form-sent");
+      if (ok) { ok.style.display = "block"; }
+    }
   }
 })();
 </script>
